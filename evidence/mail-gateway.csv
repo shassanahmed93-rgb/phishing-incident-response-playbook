@@ -1,0 +1,4 @@
+event_id,timestamp_utc,message_id,sender,reply_to,recipient,subject,url_domain,spf,dkim,dmarc,verdict,action
+GW-1001,2026-10-20T09:02:11Z,<m-001@northstar.example>,billing@northstar-vendor.example,reply@northstar-vendor.example,analyst@northstar.example,Updated remittance instructions,secure-northstar.example,pass,pass,pass,delivered,delivered
+GW-1002,2026-10-20T09:03:44Z,<m-002@northstar.example>,billing@northstar-vendor.example,reply@northstar-vendor.example,finance2@northstar.example,Updated remittance instructions,secure-northstar.example,pass,pass,pass,delivered,delivered
+GW-1018,2026-10-20T10:28:02Z,<m-019@northstar.example>,billing@northstar-vendor.example,reply@northstar-vendor.example,staff1@northstar.example,Updated remittance instructions,secure-n0rthstar.example,fail,none,fail,malicious,blocked
