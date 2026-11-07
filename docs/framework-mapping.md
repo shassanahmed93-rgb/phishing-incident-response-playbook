@@ -2,16 +2,20 @@
 
 Illustrative cross-references only; they do not certify compliance or imply a procedure satisfies every control. Validate current organizational requirements and framework versions.
 
-## NIST SP 800-61 Rev. 2
+## NIST SP 800-61 Rev. 3 and CSF 2.0
 
-| Playbook activity | Phase | Evidence |
+NIST finalized SP 800-61 Rev. 3 in April 2025, superseding Rev. 2. Rev. 3 integrates incident response throughout the six CSF 2.0 Functions. This practical crosswalk does not claim that this project's six operational stages are NIST's lifecycle model.
+
+| Playbook activity | CSF 2.0 Function(s) supported | Example evidence |
 |---|---|---|
-| Contacts, authority, tools, templates, exercise | Preparation | Contact roster, approved procedures, exercise findings |
-| Intake, validation, severity, scope | Detection & Analysis | Incident record, indicators, affected entities, timeline |
-| Purge, session revocation, account restriction, isolation | Containment | Decision/action records and impact notes |
-| Remove rules, grants, payloads, access paths | Eradication | Before/after state and validation searches |
-| Restore workflows and monitor | Recovery | Recovery approval, observation log, owner acceptance |
-| Review and corrective actions | Post-Incident Activity | Lessons, action register, updated playbook |
+| Preparation: contacts, authority, tools, templates, exercise | Govern, Identify, Protect | Contact roster, approved procedures, exercise findings |
+| Intake, validation, severity, scope | Detect, Respond | Incident record, indicators, affected entities, timeline |
+| Purge, session revocation, account restriction, isolation | Respond | Decision/action records and impact notes |
+| Remove rules, grants, payloads, access paths | Respond | Before/after state and validation searches |
+| Restore workflows and monitor | Recover, Detect | Recovery approval, observation log, owner acceptance |
+| Review and corrective actions | Govern, Identify, Protect, Detect, Respond, Recover | Lessons, action register, updated playbook |
+
+Source: NIST [SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final). The stages above remain useful operational steps for this exercise; the mapping uses the current publication's CSF 2.0 framing.
 
 ## MITRE ATT&CK Enterprise
 
@@ -24,4 +28,4 @@ Illustrative cross-references only; they do not certify compliance or imply a pr
 
 ## Sources and limits
 
-NIST: [SP 800-61 Rev. 2](https://csrc.nist.gov/pubs/sp/800/61/r2/final). ATT&CK mapping describes observed fictional behaviors, not actor attribution or exhaustive coverage. Record confidence separately from framework labels.
+ATT&CK mapping describes observed fictional behaviors, not actor attribution or exhaustive coverage. Record confidence separately from framework labels.
