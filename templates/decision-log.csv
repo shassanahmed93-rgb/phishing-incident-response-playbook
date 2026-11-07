@@ -1,0 +1,2 @@
+timestamp_utc,incident_id,decision_id,decision,options_considered,rationale,evidence_ids,approver,operator,impact_or_risk,result,follow_up_owner,due_utc
+2026-10-20T09:20:00Z,NSC-2026-1020,D-001,Set provisional severity SEV-2,"SEV-2; SEV-3","Credential entry and MFA reported; validate sign-in activity",EV-001|EV-004,Incident Lead,Security Analyst,"Access may be active","Fictional exercise decision",Identity Lead,2026-10-20T09:35:00Z
