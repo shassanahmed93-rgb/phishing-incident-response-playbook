@@ -1,0 +1,4 @@
+event_id,timestamp_utc,mailbox,event,detail,result
+MA-3001,2026-10-20T09:13:05Z,analyst@northstar.example,NewInboxRule,"ForwardTo=archive@northstar.example; markAsRead=true",success
+MA-3002,2026-10-20T09:27:31Z,analyst@northstar.example,DeleteInboxRule,"RuleId=rule-17",success
+MA-3003,2026-10-20T09:31:00Z,tenant,MessageSearch,"18 delivered copies; 14 unique recipients; queried 08:00-09:30Z",complete
