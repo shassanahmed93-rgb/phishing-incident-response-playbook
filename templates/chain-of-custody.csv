@@ -1,0 +1,1 @@
+evidence_id,incident_id,description,source_system,collector,collected_utc,source_timezone,query_or_method,original_location,sha256,transfer_from,transfer_to,transfer_utc,purpose,limitations
