@@ -1,0 +1,11 @@
+{
+  "notice": "Synthetic portfolio fixtures only; hashes identify package bytes, not authenticity of real-world evidence.",
+  "algorithm": "SHA-256",
+  "files": {
+    "evidence/endpoint-alerts.csv": "24a55a1ddaf23a3e29c4662e21fcc9d006865cef3d2e7dacfa859101d4e0f994",
+    "evidence/finance-workflow.csv": "589cbe02a4f0eb2062c45cd3c3451c7818851f400e5c3ef306685565e1785f29",
+    "evidence/identity-signins.json": "de624ab52b4f64753c7fa610901fe0777e8fb202e8e803c5d1b255706e944dca",
+    "evidence/mail-audit.csv": "b8db5a6e1939b33e2e4d0582caf531c64b524be0094482bb62ed73b5e94ec398",
+    "evidence/mail-gateway.csv": "61c61beec1c21954bf0831adf416956b78e2ab620e38f700c4ba84b28f3a8cca"
+  }
+}
